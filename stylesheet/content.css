@@ -8,7 +8,7 @@ body {
   height: 76px;
   display: block;
   position: relative;
-  background: url('file:///C:/Users/Dell/Desktop/Все%20папки/вшэ/веб%20вёрстка/face/img/Group%201.png');
+  background: url('"/face/img/Group 1.png"');
   animation: face1 1s steps(1)  infinite;
 }
 
