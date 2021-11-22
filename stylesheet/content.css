@@ -10,7 +10,12 @@ body {
   position: relative;
   background: url('../img/Group 1.png');
   animation: face1 1s steps(1)  infinite;
-}
+  animation-play-state: paused;
+  }
+
+  .face1:hover {
+    animation-play-state: running;
+  }
 
 @keyframes face1 {
   0% {background-position:  0px top;}
@@ -27,7 +32,12 @@ body {
   position: relative;
   background: url('../img/Group 2.png');
   animation: face2 1s steps(1)  infinite;
-}
+  animation-play-state: paused;
+  }
+
+  .face2:hover {
+    animation-play-state: running;
+  }
 
 @keyframes face2 {
   0% {background-position:  0px top;}
@@ -43,7 +53,12 @@ body {
   position: relative;
   background: url('../img/Group 3.png');
   animation: face3 1s steps(1)  infinite;
-}
+  animation-play-state: paused;
+  }
+
+  .face3:hover {
+    animation-play-state: running;
+  }
 
 @keyframes face3 {
   0% {background-position:  0px top;}
@@ -59,7 +74,12 @@ body {
   position: relative;
   background: url('../img/Group 4.png');
   animation: face4 1s steps(1)  infinite;
-}
+  animation-play-state: paused;
+  }
+
+  .face4:hover {
+    animation-play-state: running;
+  }
 
 @keyframes face4 {
   0% {background-position:  0px top;}
@@ -75,7 +95,12 @@ body {
   position: relative;
   background: url('../img/Group 5.png');
   animation: face3 1s steps(1)  infinite;
-}
+  animation-play-state: paused;
+  }
+
+  .face5:hover {
+    animation-play-state: running;
+  }
 
 @keyframes face5 {
   0% {background-position:  0px top;}
