@@ -1,0 +1,95 @@
+body {
+  background-color: black;
+}
+
+
+.face1 {
+  width: 76px;
+  height: 76px;
+  display: block;
+  position: relative;
+  background: url('file:///C:/Users/Dell/Desktop/Все%20папки/вшэ/веб%20вёрстка/face/img/Group%201.png');
+  animation: face1 1s steps(1)  infinite;
+}
+
+@keyframes face1 {
+  0% {background-position:  0px top;}
+  30% {background-position:  -76px top;}
+  60% {background-position:  -152px top;}
+  100% {background-position:  -228px top;}
+}
+
+
+.face2 {
+  width: 81px;
+  height: 81px;
+  display: block;
+  position: relative;
+  background: url('file:///C:/Users/Dell/Desktop/Все%20папки/вшэ/веб%20вёрстка/face/img/Group%202.png');
+  animation: face2 1s steps(1)  infinite;
+}
+
+@keyframes face2 {
+  0% {background-position:  0px top;}
+  30% {background-position:  -81px top;}
+  60% {background-position:  -162px top;}
+  100% {background-position:  -243px top;}
+}
+
+.face3 {
+  width: 81px;
+  height: 81px;
+  display: block;
+  position: relative;
+  background: url('file:///C:/Users/Dell/Desktop/Все%20папки/вшэ/веб%20вёрстка/face/img/Group%203.png');
+  animation: face3 1s steps(1)  infinite;
+}
+
+@keyframes face3 {
+  0% {background-position:  0px top;}
+  30% {background-position:  -81px top;}
+  60% {background-position:  -162px top;}
+  100% {background-position:  -243px top;}
+}
+
+.face4 {
+  width: 81px;
+  height: 81px;
+  display: block;
+  position: relative;
+  background: url('file:///C:/Users/Dell/Desktop/Все%20папки/вшэ/веб%20вёрстка/face/img/Group%204.png');
+  animation: face4 1s steps(1)  infinite;
+}
+
+@keyframes face4 {
+  0% {background-position:  0px top;}
+  30% {background-position:  -81px top;}
+  60% {background-position:  -162px top;}
+  100% {background-position:  -243px top;}
+}
+
+.face5 {
+  width: 81px;
+  height: 81px;
+  display: block;
+  position: relative;
+  background: url('file:///C:/Users/Dell/Desktop/Все%20папки/вшэ/веб%20вёрстка/face/img/Group%205.png');
+  animation: face3 1s steps(1)  infinite;
+}
+
+@keyframes face5 {
+  0% {background-position:  0px top;}
+  50% {background-position:  -81px top;}
+  100% {background-position:  -162px top;}
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-around;
+}
