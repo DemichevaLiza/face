@@ -8,7 +8,7 @@ body {
   height: 76px;
   display: block;
   position: relative;
-  background: url('"/face/img/Group 1.png"');
+  background: url('../img/Group 1.png');
   animation: face1 1s steps(1)  infinite;
 }
 
@@ -25,7 +25,7 @@ body {
   height: 81px;
   display: block;
   position: relative;
-  background: url('file:///C:/Users/Dell/Desktop/Все%20папки/вшэ/веб%20вёрстка/face/img/Group%202.png');
+  background: url('../img/Group 2.png');
   animation: face2 1s steps(1)  infinite;
 }
 
@@ -41,7 +41,7 @@ body {
   height: 81px;
   display: block;
   position: relative;
-  background: url('file:///C:/Users/Dell/Desktop/Все%20папки/вшэ/веб%20вёрстка/face/img/Group%203.png');
+  background: url('../img/Group 3.png');
   animation: face3 1s steps(1)  infinite;
 }
 
@@ -57,7 +57,7 @@ body {
   height: 81px;
   display: block;
   position: relative;
-  background: url('file:///C:/Users/Dell/Desktop/Все%20папки/вшэ/веб%20вёрстка/face/img/Group%204.png');
+  background: url('../img/Group 4.png');
   animation: face4 1s steps(1)  infinite;
 }
 
@@ -73,7 +73,7 @@ body {
   height: 81px;
   display: block;
   position: relative;
-  background: url('file:///C:/Users/Dell/Desktop/Все%20папки/вшэ/веб%20вёрстка/face/img/Group%205.png');
+  background: url('../img/Group 5.png');
   animation: face3 1s steps(1)  infinite;
 }
 
